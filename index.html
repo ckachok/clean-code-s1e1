@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Todo App</title>
   </head>
   <body>
     <header class="header">
       <img class="header__image" src="./eisenhower-matrix.jpg" alt="Tne Eisenhower Matrix">
-      <a class="header__link" 
+      <a class="header__link"
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
       </a>
@@ -18,7 +18,11 @@
         <h2 class="title">Add Item</h2>
         <div class="new-task">
           <label class="new-task__label" for="new-task"></label>
-          <input class="input input-text new-task__input-text" id="new-task" type="text">
+          <input class="input
+                        input-text
+                        new-task__input-text"
+                    id="new-task"
+                  type="text">
           <button class="btn new-task__btn">Add</button>
         </div>
       </section>
@@ -28,10 +32,16 @@
           <li class="task-list__item">
             <input class="input task-list__input-checkbox" type="checkbox">
             <label class="task-list__label">Pay Bills</label>
-            <input class="input input-text task-list__input-text" type="text">
+            <input class="input
+                          input-text
+                          task-list__input-text"
+                    type="text">
             <button class="btn task-list__btn-edit">Edit</button>
             <button class="btn task-list__btn-delete">
-              <svg class="pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 489.425 489.425" fill="currentColor">
+              <svg class="pointer"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 489.425 489.425"
+                    fill="currentColor">
                 <desc>Pointer for deleting task</desc> <!-- Alternative in the svg tag for the alt attribute in the img tag -->
                 <path d="M122.825 394.663c17.8 19.4 43.2 30.6 69.5 30.6h216.9c44.2 0 80.2-36
                         80.2-80.2v-200.7c0-44.2-36-80.2-80.2-80.2h-216.9c-26.4 0-51.7 11.1-69.5
@@ -47,10 +57,18 @@
           <li class="task-list__item edit-mode">
             <input class="input task-list__input-checkbox" type="checkbox">
             <label class="task-list__label task-list__label_edit-mode">Go Shopping</label>
-            <input class="input input-text task-list__input-text task-list__input-text_edit-mode" type="text" value="Go Shopping">
+            <input class="input
+                          input-text
+                          task-list__input-text
+                          task-list__input-text_edit-mode"
+                    type="text"
+                    value="Go Shopping">
             <button class="btn task-list__btn-edit">Save</button>
             <button class="btn task-list__btn-delete">
-              <svg class="pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 489.425 489.425" fill="currentColor">
+              <svg class="pointer"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 489.425 489.425"
+                    fill="currentColor">
                 <desc>Pointer for deleting task</desc> <!-- Alternative in the svg tag for the alt attribute in the img tag -->
                 <path d="M122.825 394.663c17.8 19.4 43.2 30.6 69.5 30.6h216.9c44.2 0 80.2-36
                         80.2-80.2v-200.7c0-44.2-36-80.2-80.2-80.2h-216.9c-26.4 0-51.7 11.1-69.5
@@ -71,10 +89,16 @@
           <li class="task-list__item">
             <input class="input task-list__input-checkbox" type="checkbox" checked>
             <label class="task-list__label task-list__label_completed">See the Doctor</label>
-            <input class="input input-text task-list__input-text" type="text">
+            <input class="input
+                          input-text
+                          task-list__input-text"
+                          type="text">
             <button class="btn task-list__btn-edit">Edit</button>
             <button class="btn task-list__btn-delete">
-              <svg class="pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 489.425 489.425" fill="currentColor">
+              <svg class="pointer"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 489.425 489.425"
+                    fill="currentColor">
                 <desc>Pointer for deleting task</desc> <!-- Alternative in the svg tag for the alt attribute in the img tag -->
                 <path d="M122.825 394.663c17.8 19.4 43.2 30.6 69.5 30.6h216.9c44.2 0 80.2-36
                         80.2-80.2v-200.7c0-44.2-36-80.2-80.2-80.2h-216.9c-26.4 0-51.7 11.1-69.5
